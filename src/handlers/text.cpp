@@ -66,7 +66,7 @@ namespace thirdparty::handlers::text
             return false;
         }
 
-        text::map_           = static_cast<map_t*>(text::view_);
+        text::map_           = static_cast<text::map_t*>(text::view_);
         text::map_->handled_ = true;
 
         return true;
